@@ -1,0 +1,37 @@
+extends ./layout/base
+
+block title
+  title Confirm your email address
+
+block content
+  table.body-wrap
+    tr
+      td
+      td.container(width='600')
+        .content
+          table.main(width='100%', cellpadding='0', cellspacing='0', itemprop='action', itemscope='', itemtype='http://schema.org/ConfirmAction')
+            tr
+              td.content-wrap
+                meta(itemprop='name', content='Confirm Email')
+                table(width='100%', cellpadding='0', cellspacing='0')
+                  tr
+                    td.content-block.
+                      Please confirm your email address by clicking the link below.
+                  tr
+                    td.content-block.
+                      We may need to send you critical information about our
+                      service and it is important that we have an accurate email address.
+                  tr
+                    td.content-block(itemprop='handler', itemscope='', itemtype='http://schema.org/HttpActionHandler')
+                      a.btn-primary(href='http://www.mailgun.com', itemprop='url') Confirm email address
+                  tr
+                    td.content-block
+                      | — The Mailgunners
+          .footer
+            table(width='100%')
+              tr
+                td.aligncenter.content-block
+                  | Follow
+                  a(href='http://twitter.com/mail_gun') @Mail_Gun
+                  |  on Twitter.
+      td

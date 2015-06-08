@@ -3,7 +3,7 @@
 Designing and testing emails is a pain. HTML tables, inline CSS and varying support for the latest web standards.
 
 Moreover writing content inside pure HTML is pain. If you have more emails,
-then most of time you endup updating all files for header, footer and common styles.
+then most of the time you endup updating all HTML files for header, footer and common styles.
 So we uses Jade template to solve this problem.
 
 
@@ -26,11 +26,11 @@ This grunt task helps simplify things at the design stage.
 
 ## Getting started
 
-1. Install grunt packages only once
+Install grunt packages only once
 
     npm install
 
-2. Build and Watch
+Build and Watch
 
     grunt watch
 
